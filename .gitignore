@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ---- 运行时生成（默认位于 ~/.ezhfd） ----
+# 若在项目目录内运行时留下的副本一并忽略
+config.json
+hfd.sh
+
+# ---- 下载产物 ----
+models/
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

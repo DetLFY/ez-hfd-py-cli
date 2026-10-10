@@ -1,0 +1,8 @@
+# ezhfd-py-cli 仅使用 Python 标准库，无需安装任何第三方依赖。
+#
+# 运行前请确保 Python 版本 >= 3.8：
+#   python --version
+#
+# ezhfd-py-cli 会在运行时自动检测并安装以下系统级依赖（非 pip 包）：
+#   - aria2   （提供 aria2c 命令）
+#   - git-lfs （提供 git-lfs 命令）
